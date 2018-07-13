@@ -4,7 +4,6 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Proxy" />
     <Folder Include="SimpleFactory" />
   </ItemGroup>
 </Project>
