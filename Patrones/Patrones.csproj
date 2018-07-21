@@ -4,6 +4,12 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="SimpleFactory" />
+    <Compile Remove="SimpleFactory\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="SimpleFactory\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="SimpleFactory\**" />
   </ItemGroup>
 </Project>
