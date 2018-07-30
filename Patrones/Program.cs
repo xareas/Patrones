@@ -8,7 +8,7 @@ namespace Patrones
     {
         static void Main(string[] args)
         {
-            Decorator.RunMain.Run();
+            VisitorAnimals.RunMain.Run();
         }
     }
 }
